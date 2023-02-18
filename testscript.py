@@ -1,6 +1,6 @@
 import csv
 
-filename = 'data/sitka_weather_2018_full.csv'
+filename = 'data/death_valley_2018_simple.csv'
 with open(filename) as f:
 	reader =csv.reader(f)
 	header_row = next(reader)
